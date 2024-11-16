@@ -1,0 +1,132 @@
+/* Original CSS */
+.contact {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-bottom: 2px solid darkcyan;
+}
+
+.border {
+  border: 1px solid black;
+  padding: 25px;
+  background-color: rgb(103, 250, 255);
+  border-radius: 2px;
+}
+
+.contact h1 {
+  margin-right: 80px;
+  margin-bottom: 90px;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.contact span {
+  color: rgb(103, 250, 255);
+}
+
+.saad h1 {
+  border-bottom: 3.5px solid darkcyan;
+  margin-top: 5px;
+}
+
+.contact-div label {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contact-div input {
+  height: 40px;
+  width: 40vw;
+  border-radius: 10px;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-top: 3px;
+  color: black;
+  border: 2px solid black;
+}
+
+.contact-div .placeholder {
+  font-size: 20px;
+}
+
+.contact-div .input::placeholder {
+  font-size: 15px;
+}
+
+body {
+  background-color: rgb(200, 232, 232);
+}
+
+.btn-contact {
+  height: 50px;
+  width: 40vw;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .border {
+    width: 90vw;
+    margin-bottom: 20px;
+  }
+
+  .contact h1 {
+    font-size: 30px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-div input {
+    width: 80vw;
+  }
+
+  .btn-contact {
+    width: 80vw;
+  }
+
+  .contact-div label {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .border {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .contact h1 {
+    font-size: 24px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .contact-div input {
+    width: 90vw;
+  }
+
+  .btn-contact {
+    width: 90vw;
+  }
+
+  .contact-div label {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,133 @@
+
+
+.skills{
+    height: 500px;
+    width: 100vw;
+   
+}
+.skills h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px
+    
+}
+
+.skills-part{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+
+
+.skills-part-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 28px;
+}
+
+.skills-part-2 .ts{
+    height: 170px;
+    width: 14vw;
+    border-radius: 20px;
+    border: 2px solid darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-part-2 .nextjs{
+    height: 170px;
+    width: 14vw;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-part-2 .tlwncss{
+    height: 170px;
+    width: 14vw;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.skills-part-2 .git{
+    height: 170px;
+    width: 14vw;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-part .html{
+    height: 170px;
+    width: 14vw;
+    border-radius: 20px;
+    border: 2px solid darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.skills-part .html:hover{
+    background-color: aqua;
+}
+
+
+.skills-part .js{
+    height: 170px;
+    width: 14vw;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-part .js:hover{
+    background-color: aqua;
+}
+.skills-part .css:hover{
+    background-color: aqua;
+}
+.skills-part .reactjs:hover{
+    background-color: darkcyan;
+}
+.skills-part-2 .ts:hover{
+    background-color:aqua;
+}
+.skills-part-2 .nextjs:hover{
+    background-color:aqua;
+}
+
+.skills-part-2 .tlwncss:hover{
+    background-color:aqua;
+}
+.skills-part-2 .git:hover{
+    background-color:aqua;
+}
+.skills-part .css{
+    height: 170px;
+    width: 14vw;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-part .reactjs{
+    height: 170px;
+    width: 14vw;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

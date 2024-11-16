@@ -1,0 +1,159 @@
+/* Original CSS */
+.about {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+}
+
+.about-left {
+  height: 450px;
+  width: 45vw;
+}
+
+.about-right {
+  height: 450px;
+  width: 100vw;
+}
+
+.about-right h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  padding-right: 250px;
+}
+
+.about-img {
+  height: 400px;
+  width: 20vw;
+  background-color: darkcyan;
+  margin-left: 120px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.about-right p {
+  text-align: center;
+  margin-right: 80px;
+  padding-right: 80px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.about-right h2 {
+  margin-left: 12px;
+  color: darkcyan;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.about-right ul li {
+  margin-right: 2px;
+  margin-top: 8px;
+  font-size: large;
+  font-weight: bold;
+  transition: color 0.3s ease-in;
+}
+
+.about-right li {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease-in;
+}
+
+.about-right li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 3px;
+  background-color: darkcyan;
+  transition: width 0.3s ease-in;
+  list-style: disc;
+}
+
+.about-right li:hover::after {
+  width: 130px;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .about {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+  }
+
+  .about-left, .about-right {
+      width: 90vw;
+      height: auto;
+  }
+
+  .about-img {
+      height: 300px;
+      width: 30vw;
+      margin-left: 0;
+  }
+
+  .about-right h1 {
+      font-size: 30px;
+      padding-right: 20px;
+  }
+
+  .about-right p {
+      font-size: 16px;
+      margin-right: 20px;
+      padding-right: 20px;
+  }
+
+  .about-right h2 {
+      font-size: 24px;
+  }
+
+  .about-right ul li {
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .about-left, .about-right {
+      width: 100vw;
+      height: auto;
+  }
+
+  .about-img {
+      height: 250px;
+      width: 40vw;
+      margin-left: 0;
+  }
+
+  .about-right h1 {
+      font-size: 24px;
+      padding-right: 10px;
+  }
+
+  .about-right p {
+      font-size: 14px;
+      margin-right: 10px;
+      padding-right: 10px;
+  }
+
+  .about-right h2 {
+      font-size: 20px;
+  }
+
+  .about-right ul li {
+      font-size: 16px;
+  }
+}

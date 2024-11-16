@@ -1,0 +1,72 @@
+/* Original CSS */
+.home {
+    height: 80vh;
+    width: 100vw;
+}
+
+.home-img-centre {
+    display: flex;
+    justify-content: center;
+}
+
+.home-img {
+    height: 150px;
+    width: 10vw;
+    background-color: darkcyan;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.home h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.home-box {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 260px;
+    width: 40vw;
+    border: 2px solid darkcyan;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.home h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home p {
+    text-align: center;
+    margin: 10px;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.home-btn button {
+    height: 40px;
+    width: 20vw;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.home-btn button:hover {
+    background-color: rgb(2, 127, 127);
+}
+
+.home-btn {
+    display: flex;
+    justify-content: center;
+}

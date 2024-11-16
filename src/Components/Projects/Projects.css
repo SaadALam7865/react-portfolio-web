@@ -1,0 +1,90 @@
+.projects {
+    height: 550px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;  /* This allows the items to wrap on smaller screens */
+}
+
+/* Portfolio Section */
+.portfolio,
+.e-commerce {
+    height: 380px;
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: darkcyan;
+    margin: 10px; /* Adding space between portfolio items */
+    transition: all 0.3s ease; /* Smooth transition for scaling effect */
+}
+
+.portfolio img, .e-commerce img {
+    margin-top: 60px;
+}
+
+/* Button Styles */
+.portfolio button,
+.e-commerce button,
+.mypro button,
+.myweb button {
+    height: 30px;
+    width: 10vw;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 15px;
+    font-style: italic;
+    border: 2px solid aqua;
+    text-align: center;
+}
+
+.portfolio button:hover,
+.mypro button:hover,
+.myweb button:hover {
+    background-color: rgb(77, 189, 189);
+}
+
+/* Responsive Design (Media Queries) */
+
+/* For devices smaller than 768px (e.g., tablets and small laptops) */
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;  /* Stack items vertically */
+        height: auto;  /* Let content take up space as needed */
+        justify-content: center; /* Center the items */
+    }
+
+    .portfolio, .e-commerce {
+        width: 80vw;  /* Increase width to occupy more space on small screens */
+        height: 350px;  /* Slightly reduce height */
+    }
+
+    .portfolio h1,
+    .e-commerce h1 {
+        font-size: 28px;  /* Adjust font size for smaller screens */
+    }
+
+    .portfolio button, .e-commerce button {
+        width: 60vw;  /* Adjust button width for small screens */
+    }
+}
+
+/* For devices smaller than 480px (e.g., mobile phones) */
+@media (max-width: 480px) {
+    .portfolio, .e-commerce {
+        width: 90vw;  /* Take almost full width */
+        height: 300px;  /* Reduce height even further */
+    }
+
+    .portfolio h1,
+    .e-commerce h1 {
+        font-size: 24px;  /* Smaller font size for mobile */
+    }
+
+    .portfolio button, .e-commerce button {
+        width: 80vw;  /* Full-width buttons on mobile */
+    }
+}

@@ -1,0 +1,126 @@
+.footer {
+    height: 200px;
+    width: 100vw;
+    border-top: 2px solid black;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  /* Center content vertically and horizontally */
+}
+
+.logo {
+    margin-bottom: 40px;
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center; /* Center the logo text */
+}
+
+.logo span {
+    color: #42daf5;
+}
+
+.code h4 {
+    margin-right: 80px;
+    text-align: center;
+    color: rgb(125, 193, 193);
+}
+
+.footer-icons {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+    display: flex;  /* Flexbox for horizontal alignment of icons */
+    justify-content: center;
+}
+
+.footer-icons i {
+    margin-left: 15px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scale effect */
+}
+
+/* Instagram */
+.instagram {
+    color: rgb(233, 23, 58);
+}
+
+.instagram:hover {
+    color: rgb(247, 0, 41);
+    transform: scale(1.1);  /* Smooth zoom effect */
+}
+
+/* Facebook */
+.facebook {
+    color: #03254c;
+}
+
+.facebook:hover {
+    color: #144f92;
+    transform: scale(1.1);
+}
+
+/* Twitter */
+.twitter {
+    color: black;
+}
+
+.twitter:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+/* LinkedIn */
+.linkedin {
+    color: skyblue;
+}
+
+.linkedin:hover {
+    color: rgb(73, 175, 215);
+    transform: scale(1.1);
+}
+
+/* GitHub */
+.github {
+    color: #181717;
+}
+
+.github:hover {
+    color: #181717;
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer-icons {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .footer-icons {
+        font-size: 25px;
+    }
+}

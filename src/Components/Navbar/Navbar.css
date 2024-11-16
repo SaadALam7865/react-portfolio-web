@@ -1,0 +1,55 @@
+
+.navbar{
+    height: 90px;
+    width: 94vw;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    
+
+
+}
+
+.navbar h1{
+  color: darkcyan;
+}
+
+.nav-options{
+    display: flex;
+}
+
+.nav-options ul{
+    list-style: none;
+    display: flex;
+
+}
+.nav-options ul li{
+    margin-left: 40px
+}
+.nav-options a{
+ text-decoration: none;
+ color: black;
+ font-size: 18px;
+}
+.navbar button{
+    margin-left: 40px;
+    background-color: darkcyan;
+    height: 30px;
+    width: 9vw;
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 5px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.navbar button:hover{
+    background-color: whitesmoke;
+  border: 2px solid darkcyan;
+}
